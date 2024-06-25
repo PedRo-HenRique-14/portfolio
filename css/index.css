@@ -1,0 +1,67 @@
+.about-me-introduction {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 70px);
+    justify-content: center;
+    width: 100%;
+}
+
+.presentation {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.presentation h1 {
+    font-size: 38pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.presentation h1 strong {
+    color: #dd8e4d;
+}
+
+.presentation hr {
+    width: 750px;
+}
+
+.presentation h2 {
+    font-size: 30pt;
+    font-weight: 400;
+    text-align: center;
+}
+
+.presentation p {
+    color: #908d96;
+    font-size: 16pt;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.about-me-introduction nav {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 50px 0;
+    width: 50%;
+}
+
+.about-me-introduction nav button {
+    background-color: #dd8e4d;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+
+    transition: 250ms;
+}
+
+.about-me-introduction nav button:hover {
+    background-color: #a86c3b;
+}
+
+.about-me-introduction nav button span {
+    font-size: 14pt;
+}

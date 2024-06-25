@@ -4,33 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Garcia</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div class="site-body">
-        <header>
-            <div class="logo">
-                <img src="./img/" alt="">
+        <header class="header"></header>
+        <section class="about-me-introduction">
+            <div class="presentation">
+                <h1>Oi, me chamo <strong>Pedro Garcia</strong>.</h1>
+                <hr>
+                <h2>Desenvolvedor Fullstack</h2>
+                <p>Sou um amante da tecnologia, focando meus conhecimentos em desenvolvimento fullstack.</p>
             </div>
             <nav>
-                <ul class="menu-list">
-                    <li class="menu-item">Home</li>
-                    <li class="menu-item">Sobre</li>
-                    <li class="menu-item">Habilidades</li>
-                    <li class="menu-item">Projetos</li>
-                    <li class="menu-item">Contatos</li>
-                </ul>
+                <button type="button" onclick="window.location.href = `./about.html`"><span>Sobre mim</span></button>
+                <button type="button"><span>GitHub</span></button>
+                <button type="button"><span>LinkedIn</span></button>
             </nav>
-        </header>
-        <section class="about-me-introduction">
-            <h1>Oi, me chamo Pedro Garcia.</h1>
-            <hr>
-            <h2>Desenvolvedor Fullstack</h2>
-            <p>Sou um amante da tecnologia, focando meus conhecimentos em desenvolvimento fullstack.</p>
-            
-            <button type="button"><span>Sobre mim</span></button>
-            <button type="button"><span>GitHub</span></button>
-            <button type="button"><span>LinkedIn</span></button>
         </section>
     </div>
+
+    <script src="./js/header.js"></script>
 </body>
 </html>
