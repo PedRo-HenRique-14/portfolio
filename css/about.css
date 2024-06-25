@@ -1,0 +1,39 @@
+.about-me-section h1 {
+    font-size: 32pt;
+}
+
+.about-me {
+    padding: 70px 50px;
+    width: 50%;
+}
+
+.about-me p {
+    font-size: 14pt;
+    line-height: 25px;
+    margin: 40px 0;
+    text-align: justify;
+}
+
+.about-me-introduction nav {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-me nav button {
+    background-color: #dd8e4d;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+
+    transition: 250ms;
+}
+
+.about-me nav button:hover {
+    background-color: #a86c3b;
+}
+
+.about-me nav button span {
+    font-size: 14pt;
+}
