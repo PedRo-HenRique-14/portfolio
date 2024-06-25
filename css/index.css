@@ -1,3 +1,8 @@
+.site-body {
+    align-items: center;
+    display: flex;
+}
+
 .about-me-introduction {
     align-items: center;
     display: flex;
@@ -15,7 +20,7 @@
 }
 
 .presentation h1 {
-    font-size: 38pt;
+    font-size: clamp(45px, 2.7vw, 50px);
     font-weight: 500;
     text-align: center;
 }
@@ -25,19 +30,19 @@
 }
 
 .presentation hr {
-    width: 750px;
+    width: clamp(650px, 40vw,720px);
 }
 
 .presentation h2 {
-    font-size: 30pt;
+    font-size: clamp(35px, 2.7vw, 40px);
     font-weight: 400;
     text-align: center;
 }
 
 .presentation p {
     color: #908d96;
-    font-size: 18pt;
-    line-height: 40px;
+    font-size: clamp(18px, 1.5vw, 24px);
+    line-height: clamp(35px, 2vw, 40px);
     margin: 30px 0;
     text-align: center;
 }
@@ -65,5 +70,5 @@
 }
 
 .about-me-introduction nav button span {
-    font-size: 14pt;
+    font-size: clamp(16px, 1vw, 18px);
 }

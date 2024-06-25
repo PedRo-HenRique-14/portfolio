@@ -11,12 +11,14 @@
 body {
     background: rgb(18,18,18);
     background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(23,23,23,1) 50%, rgba(37,37,37,1) 100%);
+    font-size: 16px;
     height: 100vh;
     width: 100vw;
 }
 
 .site-body {
-    height: 100%;
+    height: calc(100% - 70px);
+    overflow-y: auto;
     width: 100%;
 }
 
@@ -28,7 +30,7 @@ header {
     height: 70px;
     justify-content: space-between;
     padding: 0 60px;
-    width: calc(100% - 120px);
+    width: calc(100vw - 120px);
 }
 
 .logo {
@@ -44,7 +46,7 @@ header {
 }
 
 .header-nav {
-    width: 40%;
+    width: 50%;
 }
 
 .menu-list {
