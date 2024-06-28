@@ -1,6 +1,6 @@
 var headerContent = `
 <div class="logo">
-    <img src="https://avatars.githubusercontent.com/u/53160578?v=4" alt="logo">
+    <img src="https://media.licdn.com/dms/image/D4D03AQEl78DG7TQjKg/profile-displayphoto-shrink_800_800/0/1719276281021?e=1724889600&v=beta&t=6IkU5QmHIe-OZ62qixhzU3I2_lyM0UgZ14XLTcRQSJk" alt="logo">
 </div>
 <button type="button" class="button-menu"><span>Menu</span><i class="fa-solid fa-chevron-left arrow"></i></button>
 <nav class="header-nav">

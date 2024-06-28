@@ -1,6 +1,19 @@
+.about-me-section {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .about-me-section h1 {
     font-size: 32pt;
     font-weight: 500;
+}
+
+.about-me-section img {
+    border-radius: 50vw;
+    height: 400px;
+    width: 400px;
 }
 
 .about-me {
@@ -18,7 +31,6 @@
 .about-me nav {
     display: flex;
     gap: 100px;
-    justify-content: center;
     width: 100%;
 }
 
@@ -38,4 +50,40 @@
 
 .about-me nav button span {
     font-size: clamp(16px, 1vw, 18px);
+}
+
+@media screen and (max-width: 575px) {
+    .about-me-section {
+        flex-direction: column-reverse;
+        padding: 50px 0;
+    }
+
+    .about-me-section img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-me {
+        width: 80%;
+    }
+
+    .about-me h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .about-me p {
+        font-size: 18px;
+    }
+
+    .about-me nav {
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .about-me nav button {
+        height: 50px;
+        width: 220px;
+    }
 }
