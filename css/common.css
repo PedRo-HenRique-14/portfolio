@@ -45,6 +45,11 @@ header {
     width: 60px;
 }
 
+.button-menu {
+    display: none;
+    width: 0px;
+}
+
 .header-nav {
     width: 50%;
 }
@@ -60,4 +65,72 @@ header {
 
 .header-nav a {
     text-decoration: none;
+    user-select: none;
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        padding: 0 20px;
+        width: calc(100vw - 40px);
+    }
+
+    .button-menu {
+        align-items: center;
+        background-color: #21212100;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        width: 50vw;
+    }
+
+    .button-menu span {
+        font-size: 18px;
+    }
+
+    .button-menu i {
+        transition: transform 250ms;
+    }
+
+    .button-menu i.active{
+        transform: rotate(-90deg);
+    }
+
+    .header-nav {
+        display: none;
+        width: 0px;
+    }
+    
+    .header-nav.active {
+        background-color: #212121;
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 69px;
+        width: 50vw;
+        z-index: 1;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .menu-item {
+        align-items: center;
+        border-bottom: #292929 1px solid;
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .menu-item.contatos {
+        border-bottom: none;
+    }
+
+    .site-body {
+        display: block;
+    }
 }

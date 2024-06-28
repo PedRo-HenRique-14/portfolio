@@ -7,8 +7,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 70px);
-    justify-content: center;
+    padding: 70px 0px;
     width: 100%;
 }
 
@@ -71,4 +70,31 @@
 
 .about-me-introduction nav button span {
     font-size: clamp(16px, 1vw, 18px);
+}
+
+@media screen and (max-width: 575px) {
+    .site-body {
+        display: block;
+    }
+    
+    .presentation {
+        width: 90%;
+    }
+
+    .presentation hr {
+        width: 320px;
+    }
+
+    .about-me-introduction nav {
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: start;
+        width: 80%;
+    }
+
+    .about-me-introduction nav button {
+        height: 50px;
+        width: 220px;
+    }
 }
