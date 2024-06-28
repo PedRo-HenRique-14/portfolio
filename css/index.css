@@ -18,10 +18,21 @@
     width: 50%;
 }
 
+.about-title-area {
+    overflow-y: hidden;
+}
+
 .presentation h1 {
     font-size: clamp(45px, 2.7vw, 50px);
     font-weight: 500;
     text-align: center;
+    transform: translateY(60px);
+
+    animation-name: title;
+    animation-delay: 1000ms;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 .presentation h1 strong {
@@ -29,13 +40,31 @@
 }
 
 .presentation hr {
+    transform: scale(-0.01, 1);
     width: clamp(650px, 40vw,720px);
+
+    animation-name: scale;
+    animation-delay: 250ms;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.about-subtitle-area {
+    overflow-y: hidden;
 }
 
 .presentation h2 {
     font-size: clamp(35px, 2.7vw, 40px);
     font-weight: 400;
     text-align: center;
+    transform: translateY(-60px);
+
+    animation-name: subtitle;
+    animation-delay: 2250ms;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 .presentation p {
@@ -43,7 +72,14 @@
     font-size: clamp(18px, 1.5vw, 24px);
     line-height: clamp(35px, 2vw, 40px);
     margin: 30px 0;
+    opacity: 0%;
     text-align: center;
+
+    animation-name: fade-in;
+    animation-delay: 3000ms;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 
 .about-me-introduction nav {
@@ -64,12 +100,62 @@
     transition: 250ms;
 }
 
+.button-about {
+    opacity: 0%;
+
+    animation: fade-in;
+    animation-delay: 3500ms;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.button-github {
+    opacity: 0%;
+
+    animation: fade-in;
+    animation-delay: 4000ms;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+.button-linkedin {
+    opacity: 0%;
+
+    animation: fade-in;
+    animation-delay: 4500ms;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
 .about-me-introduction nav button:hover {
     background-color: #a86c3b;
 }
 
 .about-me-introduction nav button span {
     font-size: clamp(16px, 1vw, 18px);
+}
+
+@keyframes scale {
+    0% {transform: scale(-0.01, 1);}
+    100% {transform: scale(1, 1);}
+}
+
+@keyframes title {
+    0% {transform: translateY(150px);}
+    100% {transform: translateY(0px);}
+}
+
+@keyframes subtitle {
+    0% {transform: translateY(-150px);}
+    100% {transform: translateY(0px);}
+}
+
+@keyframes fade-in {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
 }
 
 @media screen and (max-width: 575px) {
@@ -81,8 +167,16 @@
         width: 90%;
     }
 
+    .presentation h1 {
+        transform: translateY(250px);
+    }
+
     .presentation hr {
         width: 320px;
+    }
+
+    .presentation h2 {
+        transform: translateY(-250px);
     }
 
     .about-me-introduction nav {

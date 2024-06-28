@@ -50,10 +50,6 @@ header {
     width: 0px;
 }
 
-.header-nav {
-    width: 50%;
-}
-
 .menu-list {
     align-items: center;
     display: flex;
