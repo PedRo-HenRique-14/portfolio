@@ -31,6 +31,7 @@
 .about-me nav {
     display: flex;
     gap: 100px;
+    justify-content: center;
     width: 100%;
 }
 
@@ -80,6 +81,7 @@
         align-items: center;
         flex-direction: column;
         gap: 25px;
+        justify-content: start;
     }
 
     .about-me nav button {
