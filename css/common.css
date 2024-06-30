@@ -20,6 +20,8 @@ body {
     height: calc(100% - 70px);
     overflow-y: auto;
     width: 100%;
+
+    scrollbar-width: thin;
 }
 
 header {
@@ -37,6 +39,7 @@ header {
     align-items: center;
     display: flex;
     height: 100%;
+    user-select: none;
     width: 100%;
 }
 
