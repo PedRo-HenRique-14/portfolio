@@ -173,6 +173,26 @@ div.img {
     line-height: clamp(20px, 2vw, 25px);
 }
 
+footer {
+    background-color: #212121;
+    padding: 20px 25px;
+    width: calc(100% - 50px);
+}
+
+.icons-link ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.icons-link ul li {
+    padding: 0 10px;
+}
+
+footer a {
+    color: #dd8e4d;
+}
+
 @media screen and (max-width: 575px) {
     .about-me-panel {
         flex-direction: column-reverse;
@@ -236,5 +256,19 @@ div.img {
 
     .hobby-card {
         width: auto;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    .icons-link p {
+        text-align: center;
+    }
+
+    .icons-link ul {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
     }
 }
