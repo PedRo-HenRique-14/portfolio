@@ -74,7 +74,7 @@ header {
         flex-direction: row;
         gap: 15px;
         justify-content: center;
-        width: 50vw;
+        width: calc(50vw - 20px);
     }
 
     .button-menu span {

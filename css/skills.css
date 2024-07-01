@@ -95,7 +95,8 @@
 
 footer {
     background-color: #212121;
-    padding: 20px;
+    padding: 20px 25px;
+    width: calc(100% - 25px);
 }
 
 .icons-link p {
@@ -115,4 +116,29 @@ footer {
 
 footer a {
     color: #dd8e4d;
+}
+
+@media screen and (max-width: 575px) {
+    .skills {
+        width: calc(100% - 30px);
+    }
+    
+    .cards-area {
+        justify-content: center;
+        width: auto;
+    }
+    
+    footer {
+        padding: 20px 10px;
+    }
+
+    .icons-link p {
+        text-align: center;
+    }
+
+    .icons-link ul {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
 }
