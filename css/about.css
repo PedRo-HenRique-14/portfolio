@@ -157,13 +157,12 @@ div.img {
 }
 
 .hobby-card img {
-    border-radius: 50px;
-    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.281);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
 
 .hobby-card h3 {
+    color: #dd8e4d;
     font-size: 26px;
     margin: 20px 0;
     text-align: center;

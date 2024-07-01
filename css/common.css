@@ -30,22 +30,9 @@ header {
     flex-direction: row;
     font-family: Rubik;
     height: 70px;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 0 60px;
     width: calc(100vw - 120px);
-}
-
-.logo {
-    align-items: center;
-    display: flex;
-    height: 100%;
-    user-select: none;
-    width: 100%;
-}
-
-.logo img {
-    border-radius: 100vw;
-    width: 60px;
 }
 
 .button-menu {
