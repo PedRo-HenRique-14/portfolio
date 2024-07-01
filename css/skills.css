@@ -1,0 +1,118 @@
+.site-body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: clamp(42px, 3vw,50px);
+    font-weight: 500;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.skills {
+    /* background-color: brown; */
+    padding: 15px;
+    width: 72%;
+}
+
+.cards-area {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin: 35px 0;
+    padding: 0 40px;
+}
+
+.card {
+    align-items: center;
+    background-color: #282828;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.281);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 250px;
+}
+
+.card img {
+    height: auto;
+    user-select: none;
+    width: 100px;
+}
+
+.card h3 {
+    font-size: 28px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card span {
+    color: #dd8e4d;
+    margin: 5px 0;
+}
+
+.card p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.see-projects {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+
+.see-projects p {
+    font-size: 24px;
+}
+
+.see-projects button {
+    background-color: #dd8e4d;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+
+    transition: 250ms;
+}
+
+.see-projects button:hover {
+    background-color: #a86c3b;
+}
+
+.see-projects button span {
+    font-size: clamp(16px, 1vw, 18px);
+}
+
+footer {
+    background-color: #212121;
+    padding: 20px;
+}
+
+.icons-link p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.icons-link ul{
+    display: flex;
+    list-style: none;
+}
+
+.icons-link ul li {
+    padding: 0 10px;
+}
+
+footer a {
+    color: #dd8e4d;
+}
