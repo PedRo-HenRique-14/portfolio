@@ -147,7 +147,7 @@ span.formation {
     cursor: default;
     padding: 40px 20px;
     user-select: none;
-    width: 280px;
+    width: 300px;
 }
 
 div.img {
@@ -170,7 +170,7 @@ div.img {
 }
 
 .hobby-card p {
-    font-size: 14pt;
+    font-size: 16px;
     line-height: clamp(20px, 2vw, 25px);
 }
 
@@ -212,11 +212,7 @@ div.img {
     }
 
     .courses-info-section {
-        padding: 0 20px;
-    }
-
-    .courses-info-section h2 {
-        margin-top: 75px;
+        padding: 35px 20px;
     }
 
     .course-card {
@@ -236,7 +232,7 @@ div.img {
     }
 
     .hobby {
-        padding: 0 20px;
+        padding: 35px 20px;
     }
 
     .hobby-card {
