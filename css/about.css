@@ -31,7 +31,7 @@
 
 .about-me p {
     font-size: 14pt;
-    line-height: clamp(25px, 2vw, 30px);;
+    line-height: clamp(25px, 2vw, 30px);
     margin: 40px 0;
     text-align: justify;
 }
@@ -61,15 +61,15 @@
     font-size: clamp(16px, 1vw, 18px);
 }
 
-/* courses-info-section */
+/* courses section */
+
+.subtitle {
+    font-size: 40px;
+    text-align: center;
+}
 
 .courses-info-section {
     padding: 70px 75px;
-}
-
-.courses-info-section h2 {
-    font-size: 40px;
-    text-align: center;
 }
 
 .cards-area {
@@ -98,12 +98,9 @@
 }
 
 .course-card span {
-    margin: 10px 0;
-}
-
-.course-card span {
     color: #8b8b8b;
     display: block;
+    margin: 10px 0;
 }
 
 span.formation {
@@ -115,7 +112,7 @@ span.formation {
     display: flex;
     gap: 100px;
     justify-content: center;
-    padding: 50px 0;
+    padding-top: 50px;
     width: 100%;
 }
 
@@ -135,6 +132,46 @@ span.formation {
 
 .courses-info-section nav button span {
     font-size: clamp(16px, 1vw, 18px);
+}
+
+/* hobby area */
+
+.hobby {
+    padding-top: 70px;
+}
+
+.hobby-card {
+    background-color: #282828;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.281);
+    cursor: default;
+    padding: 40px 20px;
+    user-select: none;
+    width: 280px;
+}
+
+div.img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hobby-card img {
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.281);
+    height: 150px;
+    width: 150px;
+}
+
+.hobby-card h3 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.hobby-card p {
+    font-size: 14pt;
+    line-height: clamp(20px, 2vw, 25px);
 }
 
 @media screen and (max-width: 575px) {
@@ -196,5 +233,13 @@ span.formation {
     .courses-info-section nav button {
         height: 50px;
         width: 220px;
+    }
+
+    .hobby {
+        padding: 0 20px;
+    }
+
+    .hobby-card {
+        width: auto;
     }
 }
