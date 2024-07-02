@@ -5,7 +5,7 @@ var headerContent = `
         <li class="menu-item home" onclick="window.location.href = './index.html'"><a href="./index.html">Home</a></li>
         <li class="menu-item sobre" onclick="window.location.href = './about.html'"><a href="./about.html">Sobre</a></li>
         <li class="menu-item habilidades" onclick="window.location.href = './skills.html'"><a href="./skills.html">Habilidades</a></li>
-        <li class="menu-item projetos"><a href="">Projetos</a></li>
+        <li class="menu-item projetos" onclick="window.location.href='./projects.html'"><a href="./projects.html">Projetos</a></li>
         <li class="menu-item contatos"><a href="">Contatos</a></li>
     </ul>
 </nav>
