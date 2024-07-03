@@ -76,7 +76,7 @@
     text-align: center;
 
     animation-name: fade-in;
-    animation-delay: 3000ms;
+    animation-delay: 3500ms;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
@@ -104,7 +104,7 @@
     opacity: 0;
 
     animation: fade-in;
-    animation-delay: 3500ms;
+    animation-delay: 4000ms;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
@@ -114,7 +114,7 @@
     opacity: 0;
 
     animation: fade-in;
-    animation-delay: 4000ms;
+    animation-delay: 4500ms;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
@@ -124,7 +124,7 @@
     opacity: 0;
 
     animation: fade-in;
-    animation-delay: 4500ms;
+    animation-delay: 5000ms;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
