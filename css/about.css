@@ -30,6 +30,7 @@
 }
 
 .about-me p {
+    color: #8b8b8b;;
     font-size: 14pt;
     line-height: clamp(25px, 2vw, 30px);
     margin: 40px 0;
@@ -143,7 +144,7 @@ span.formation {
 .hobby-card {
     background-color: #282828;
     border-radius: 50px;
-    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.281);
+    box-shadow: 2px 2px 20px 0px #00000048;
     cursor: default;
     padding: 40px 20px;
     user-select: none;
@@ -169,6 +170,7 @@ div.img {
 }
 
 .hobby-card p {
+    color: #8b8b8b;;
     font-size: 16px;
     line-height: clamp(20px, 2vw, 25px);
 }
