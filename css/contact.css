@@ -75,7 +75,7 @@
     text-align: center;
 }
 
-.contact-form-section form div {
+.form-div {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -104,11 +104,19 @@
     resize: none;
 }
 
-div.buttons {
-    align-items: end;
+.status {
+    display: block;
+    margin: 5px 0;
 }
 
-.buttons button {
+#buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#buttons button {
     background-color: #dd8e4d;
     border: none;
     cursor: pointer;
@@ -118,11 +126,15 @@ div.buttons {
     transition: 250ms;
 }
 
-.buttons button:hover {
+#buttons .status {
+    margin: 0 10px
+}
+
+#buttons button:hover {
     background-color: #a86c3b;
 }
 
-.buttons button span {
+#buttons button span {
     font-size: clamp(16px, 1vw, 18px);
 }
 
