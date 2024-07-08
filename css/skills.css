@@ -17,9 +17,7 @@
 }
 
 .skills {
-    /* background-color: brown; */
-    padding: 15px;
-    width: 72%;
+    padding: 30px;
 }
 
 .cards-area {
@@ -27,7 +25,6 @@
     flex-wrap: wrap;
     gap: 25px;
     margin: 35px 0;
-    padding: 0 40px;
 }
 
 .card {
@@ -118,9 +115,29 @@ footer a {
     color: #dd8e4d;
 }
 
+@media screen and (max-width: 1366px) {
+    .card {
+        width: 200px;
+    }
+
+    .card img {
+        width: 80px;
+    }
+
+    .card svg {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 170px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .skills {
-        width: calc(100% - 30px);
+        width: calc(100% - 60px);
     }
     
     .cards-area {

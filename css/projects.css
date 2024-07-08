@@ -112,14 +112,76 @@ span.project-type {
     opacity: 1;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1366px) {
+    .project-card:hover {
+        height: 240px;
+    }
+
+    .project-card img {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .project-card {
+        width: 70%;
+    }
+    .project-card:hover {
+        height: 255px;
+        width: calc(70% + 20px);
+    }
+
+    .project-card img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .project-card {
+        width: 75%;
+    }
+
+    .project-card:hover {
+        height: 275px;
+        width: calc(75% + 20px);
+    }
+
+    .project-card:hover .card-content {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .project-card {
         display: flex;
         flex-direction: column-reverse;
         height: auto;
-        width: 75%;
+        width: 80%;
+    }
+    .project-card:hover {
+        box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.281);
+        height: auto;
+        width: 80%;
     }
 
+    .project-card:hover .card-content {
+        width: auto;
+    }
+
+    .card-content p {
+        transition: padding 250ms;
+    }
+
+    .project-card:hover .card-content p {
+        padding-top: 65px;
+    }
+
+    .card-content nav {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
     .project-card img {
         opacity: 1;
         left: 0;
@@ -129,13 +191,12 @@ span.project-type {
         width: auto;
     }
 
-    .project-card:hover {
-        box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.281);
-        width: 75%;
-    }
-
     .project-card:hover .card-content {
         width: auto;
+    }
+
+    .project-card:hover .card-content p {
+        padding-top: 0px;
     }
 }
 

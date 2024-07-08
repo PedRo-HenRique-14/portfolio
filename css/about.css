@@ -195,6 +195,30 @@ footer a {
     color: #dd8e4d;
 }
 
+@media screen and (max-width: 1280px) {
+    .about-me-section img {
+        height: auto;
+        width: 300px;
+    }
+    
+    .hobby-card {
+        width: 250px;
+    }
+    .course-card {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about-me-panel {
+        flex-direction: column-reverse;
+    }
+
+    .about-me {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .about-me-panel {
         flex-direction: column-reverse;
